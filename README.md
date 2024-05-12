@@ -18,10 +18,10 @@
    Note that the link ONLY works on your laptop and you MUST open the link on the same laptop that ran the aforementioned commands.
 4. **Follow the instructions on the website:**
    - **First select between two models**:
-     - **GPT-3.5-turbo**: Delivers reliable performance closely aligned with human ratings.
+     - *GPT-3.5-turbo*: Delivers reliable performance closely aligned with human ratings.
        - Obtain an API key from the service provider.
        - Verify that your API account has sufficient funds.
-     - **Fine-tuned Flan-T5-large**: Offers reliable performance at no cost.
+     - *Fine-tuned Flan-T5-large*: Offers reliable performance at no cost.
        - Download the model, approximately 3GB in size.
    - **Then upload the .csv that contain the responses you want to rate**:
      - Make sure your .csv has the correct file structure according to requirements on the website.
