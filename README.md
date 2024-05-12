@@ -19,7 +19,7 @@
 4. **Follow the instructions on the website:**
    - **First select between two models**:
      - *GPT-3.5-turbo*: Delivers reliable performance closely aligned with human ratings.
-       - Obtain an API key from the service provider.
+       - Obtain an API key from OpenAI API.
        - Verify that your API account has sufficient funds.
      - *Fine-tuned Flan-T5-large*: Offers reliable performance at no cost.
        - Download the model, approximately 3GB in size.
