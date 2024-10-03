@@ -7,7 +7,8 @@ Setup Instructions:
 
 1. **Download the Website Folder**:
 
-   - Go to the repository page where the website code is hosted.
+   - Go to the repository page where the website code is hosted: `Website AIHQ Rating <https://github.com/lyulouisa/Website_AIHQ_rating.git>`__
+
    - In the upper right corner of the page, look for the green button labeled `<>Code` (this button will appear green).
    - Click the `<>Code` button, and from the dropdown menu, select **"Download ZIP"**. This will download a ZIP file of the website folder onto your computer.
 
