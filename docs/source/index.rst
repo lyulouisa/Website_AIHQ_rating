@@ -21,7 +21,7 @@ The system ensures easy integration with both OpenAI's API (for GPT-3.5) and the
 
 .. raw:: html
 
-   <div style="font-size: smaller; color: #cb7e99;">
+   <div style="font-size: smaller; color: #306692;">
    <strong>Security and Privacy</strong>: The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing.
 
    If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating.
