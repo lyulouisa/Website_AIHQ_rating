@@ -1,4 +1,4 @@
-installation
+Installation
 ===============================
 
 Recommended Python Version: **3.11.3**
