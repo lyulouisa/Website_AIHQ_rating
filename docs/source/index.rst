@@ -11,7 +11,7 @@ Here’s what the website looks like after successful installation:
 .. image:: ../_static/website.png
    :alt: Screenshot of the AIHQ Rating Website
    :align: center
-   :width: 800px
+   :width: 600px
 
 **The above image shows the main page of the AIHQ Rating Website, where you can start by selecting a model and uploading your CSV file for rating.**
 
@@ -41,7 +41,7 @@ Contents:
 
 
 
-Contributors
+Contributors:
 ----------
 
 **Yizhou Lyu:**
