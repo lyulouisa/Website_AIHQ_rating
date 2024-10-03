@@ -6,38 +6,6 @@
 AIHQ Rating Website
 ===========================
 
-.. raw:: html
-
-   <style>
-   .icon {
-       padding: 5px 10px;
-       margin: 5px;
-       display: inline-block;
-       font-size: 14px;
-       font-weight: bold;
-       text-decoration: none;
-       border-radius: 5px;
-       color: white;
-   }
-   .python-icon {
-       background-color: black;
-   }
-   .version-icon {
-       background-color: #3776AB; /* Python blue */
-   }
-   .os-icon {
-       background-color: #6c757d; /* Light grey for OS */
-   }
-   </style>
-
-.. raw:: html
-
-   <p><a href="https://www.python.org/downloads/release/python-3113/" class="icon python-icon">Python</a>
-   <a href="https://www.python.org/downloads/release/python-3113/" class="icon version-icon">3.11.3</a></p>
-
-   <p><span class="icon os-icon">Windows 10</span>
-   <span class="icon os-icon">macOS Catalina</span>
-
 AIHQ Rating Website is a website designed to help researchers rate responses to open-ended questions in the Ambiguous Intentions Hostility Questionnaire (AIHQ) using large language models such as GPT-3.5-turbo and Flan-T5-large specifically fine-tuned for AIHQ rating. This website allows users to upload `.csv` files containing responses and process them through one of the two models to generate ratings like trained human raters do.
 
 The system ensures easy integration with both OpenAI's API (for GPT-3.5) and the Flan-t5 language model, allowing users flexibility in rating large amounts of textual data. The AIHQ Rating Website provides an intuitive interface for uploading CSVs and downloading the rated results after processing.
