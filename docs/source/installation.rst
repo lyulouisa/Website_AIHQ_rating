@@ -51,6 +51,12 @@ Setup Instructions:
 
 .. raw:: html
 
-   <a href="http://127.0.0.1:5005" style="color: red; text-decoration: underline; font-style: normal;">http://127.0.0.1:5005</a>
+   <div style="text-align: center;">
+       <a href="http://127.0.0.1:5005" style="color: red; text-decoration: underline; font-style: normal;">http://127.0.0.1:5005</a>
+   </div>
+
+.. raw:: html
+
+   <br><br>
 
    - Open Google Chrome (or another web browser) and copy and paste this link into the address bar at the top. Note: This link will only work on your laptop, and you must use the same laptop that ran the commands in the previous steps.
