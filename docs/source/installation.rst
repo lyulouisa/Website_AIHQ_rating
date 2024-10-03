@@ -3,17 +3,6 @@ Installation
 
 Recommended Python Version: **3.11.3**
 
-Here’s what the website looks like after installation:
-
-After successfully setting up the AIHQ Rating Website, you’ll see an interface like this:
-
-.. image:: ../_static/website.png
-   :alt: Screenshot of the AIHQ Rating Website
-   :align: center
-   :width: 800px
-
-The above image shows the main page of the AIHQ Rating Website, where you can start by selecting a model and uploading your CSV file for rating.
-
 Setup Instructions:
 
 1. **Download the Website Folder**:
