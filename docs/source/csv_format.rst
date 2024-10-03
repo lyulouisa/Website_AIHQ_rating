@@ -3,16 +3,6 @@ CSV Format
 
 Once the website is set up, you will be prompted to upload a `.csv` file with the responses you want to rate.
 
-The structure of the `.csv` file must follow specific guidelines. Here is an example of the format:
-
-+---------------------+------------------------+
-| **Response ID**      | **Response Text**       |
-+=====================+========================+
-| 1                   | "This is a sample text" |
-+---------------------+------------------------+
-| 2                   | "Another response here" |
-+---------------------+------------------------+
-
 **Graphical Representation of CSV Format**:
 
 .. image:: ../_static/csv_format_graph.png
