@@ -3,14 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Website_AIHQ_rating's documentation!
+AIHQ Rating Website
 ===============================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+   Installation
+   Input CSV Format
 
 Indices and tables
 ==================
