@@ -57,8 +57,10 @@ Contents:
    installation
    csv_format
 
+
+
 Contributors
-==================
+----------
 
 **Yizhou Lyu:**
 `lyulouisa1@g.ucla.edu <mailto:lyulouisa1@g.ucla.edu>`__
