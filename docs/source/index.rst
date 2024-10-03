@@ -12,10 +12,3 @@ AIHQ Rating Website
 
    Installation
    csv_format
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
