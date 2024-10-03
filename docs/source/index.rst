@@ -65,3 +65,5 @@ Yizhou Lyu
 
 Yuan Chang Leong
 **Email**: `ycleong@uchicago.edu <mailto:ycleong@uchicago.edu>`__
+
+If you have any inquiries or feedback, please don’t hesitate to contact us. We will get back to you as soon as possible.
