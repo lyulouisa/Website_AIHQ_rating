@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Website_AIHQ_rating'
+project = 'AIHQ Rating Website'
 copyright = '2024, Yizhou Lyu (Louisa)'
 author = 'Yizhou Lyu (Louisa)'
 
