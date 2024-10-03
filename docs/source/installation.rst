@@ -7,7 +7,7 @@ Setup Instructions:
 
 1. **Download the Website Folder**:
 
-   - Go to the repository page where the website code is hosted: `Website AIHQ Rating <https://github.com/lyulouisa/Website_AIHQ_rating.git>`__
+   - Go to the repository page where the website code is hosted: `AIHQ Rating <https://github.com/lyulouisa/Website_AIHQ_rating.git>`__
 
    - In the upper right corner of the page, look for the following button:
 
