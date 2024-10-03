@@ -20,7 +20,7 @@ The structure of the `.csv` file must follow specific guidelines. Here is an exa
    :align: center
    :width: 600px
 
-Make sure your CSV file follows this format for the website to correctly process and rate the responses.
+Make sure your CSV file includes these three columns for the website to correctly process and rate the responses, other columns can be included but will not be used in rating.
 
 **Steps to Upload the CSV**:
 
