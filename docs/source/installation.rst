@@ -47,5 +47,10 @@ Setup Instructions:
 
 6. **Access the Website**:
 
-   - Once the installation is complete, open **Google Chrome** or another browser and copy the link shown in the terminal (something like `http://127.0.0.1:5005`) to access the website.
+   - Once the installation is complete, the command line will display a link, something like this:
 
+.. raw:: html
+
+   <a href="http://127.0.0.1:5005" style="color: red; text-decoration: underline; font-style: normal;">http://127.0.0.1:5005</a>
+
+   - Open Google Chrome (or another web browser) and copy and paste this link into the address bar at the top. Note: This link will only work on your laptop, and you must use the same laptop that ran the commands in the previous steps.
