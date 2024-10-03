@@ -11,7 +11,7 @@ AIHQ Rating Website
    :caption: Contents:
 
    Installation
-   Input CSV Format
+   csv_format
 
 Indices and tables
 ==================
