@@ -38,7 +38,7 @@ instruction_e = "Read the following behavioral responses people give toward the 
                         and 4 (the participant would yell at the other person). Please output a single numeric number from 1 to 5, \
                             do not include anything other than the number in the output."
 
-# GPT or flant5
+# GPT or flant
 def process_data(df, gpt, api_key):
     if gpt:
         client = OpenAI(api_key=api_key)
