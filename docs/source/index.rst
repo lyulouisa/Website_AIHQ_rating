@@ -6,7 +6,7 @@
 AIHQ Rating Website
 ===========================
 
-Here’s what the website looks like after installation:
+Here’s what the website looks like after successful installation:
 
 .. image:: ../_static/website.png
    :alt: Screenshot of the AIHQ Rating Website
@@ -19,9 +19,13 @@ AIHQ Rating Website is a website designed to help researchers rate responses to 
 
 The system ensures easy integration with both OpenAI's API (for GPT-3.5) and the Flan-t5 language model, allowing users flexibility in rating large amounts of textual data. The AIHQ Rating Website provides an intuitive interface for uploading CSVs and downloading the rated results after processing.
 
-**Security and Privacy**: The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing.
+.. raw:: html
 
-If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating.
+   <div style="font-size: smaller;">
+   <strong>Security and Privacy</strong>: The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing.
+
+   If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating.
+   </div>
 
 Below you will find the installation instructions and details about the required CSV file format for this tool.
 
