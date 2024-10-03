@@ -37,13 +37,14 @@ AIHQ Rating Website
 
    <p><span class="icon os-icon">Windows 10</span>
    <span class="icon os-icon">macOS Catalina</span>
-   <span class="icon os-icon">Ubuntu 18.04</span>
-   <span class="icon os-icon">Fedora 30</span>
-   <span class="icon os-icon">Debian 10</span></p>
 
-AIHQ Rating Website is a tool designed to help researchers analyze and rate user responses based on models such as GPT-3.5-turbo and fine-tuned Flan-T5-large. This website allows users to upload `.csv` files containing responses and process them through these models to generate ratings based on a pre-defined schema.
+AIHQ Rating Website is a website designed to help researchers rate responses to open-ended questions in the Ambiguous Intentions Hostility Questionnaire (AIHQ) using large language models such as GPT-3.5-turbo and Flan-T5-large specifically fine-tuned for AIHQ rating. This website allows users to upload `.csv` files containing responses and process them through one of the two models to generate ratings like trained human raters do.
 
-The system ensures easy integration with both OpenAI's API (for GPT-3.5) and fine-tuned models, allowing users flexibility in rating large amounts of textual data. The AIHQ Rating Website provides an intuitive interface for uploading CSVs and downloading the rated results after processing.
+The system ensures easy integration with both OpenAI's API (for GPT-3.5) and the Flan-t5 language model, allowing users flexibility in rating large amounts of textual data. The AIHQ Rating Website provides an intuitive interface for uploading CSVs and downloading the rated results after processing.
+
+**Security and Privacy**: The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing.
+
+If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating. In either case, you don’t have to worry about any other information being leaked, as the system is designed to maintain the privacy and security of your data.
 
 Below you will find the installation instructions and details about the required CSV file format for this tool.
 
@@ -62,10 +63,10 @@ Contents:
 Contributors
 ----------
 
-**Yizhou Lyu:**
+**Yizhou Lyu: **
 `lyulouisa1@g.ucla.edu <mailto:lyulouisa1@g.ucla.edu>`__
 
-**Yuan Chang Leong**
+**Yuan Chang Leong: **
 `ycleong@uchicago.edu <mailto:ycleong@uchicago.edu>`__
 
-If you have any inquiries or feedback, please don’t hesitate to contact us. We will get back to you as soon as possible.
+If you have any question or feedback, please don’t hesitate to contact us. We will get back to you as soon as possible. Enjoy!
