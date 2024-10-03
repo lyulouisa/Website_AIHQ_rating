@@ -18,7 +18,7 @@ The structure of the `.csv` file must follow specific guidelines. Here is an exa
 .. image:: ../_static/csv_format_graph.png
    :alt: CSV Format Example
    :align: center
-   :width: 400px
+   :width: 600px
 
 Make sure your CSV file follows this format for the website to correctly process and rate the responses.
 
