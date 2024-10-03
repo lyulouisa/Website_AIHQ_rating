@@ -12,7 +12,7 @@ The system ensures easy integration with both OpenAI's API (for GPT-3.5) and the
 
 **Security and Privacy**: The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing.
 
-If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating. In either case, you don’t have to worry about any other information being leaked, as the system is designed to maintain the privacy and security of your data.
+If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating.
 
 Below you will find the installation instructions and details about the required CSV file format for this tool.
 
