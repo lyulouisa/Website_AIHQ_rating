@@ -15,7 +15,7 @@ The structure of the `.csv` file must follow specific guidelines. Here is an exa
 
 **Graphical Representation of CSV Format**:
 
-.. image:: csv_format_graph.png
+.. image:: ../_static/csv_format_graph.png
    :alt: CSV Format Example
    :align: center
    :width: 400px
