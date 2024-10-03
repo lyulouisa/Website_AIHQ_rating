@@ -11,7 +11,19 @@ Here’s what the website looks like after successful installation:
 .. image:: ../_static/website.png
    :alt: Screenshot of the AIHQ Rating Website
    :align: center
-   :width: 600px
+   :width: 70%
+
+.. image:: https://img.shields.io/badge/python-3.11-blue
+   :alt: Python 3.10
+   :target: https://www.python.org/downloads/release/python-3110/
+
+.. image:: https://img.shields.io/badge/Windows-10-blue
+   :alt: Windows 10
+   :target: https://www.microsoft.com/windows/windows-10
+
+.. image:: https://img.shields.io/badge/macOS-Catalina-red
+   :alt: macOS Catalina
+   :target: https://www.apple.com/macos/catalina/
 
 **The above image shows the main page of the AIHQ Rating Website, where you can start by selecting a model and uploading your CSV file for rating.**
 
