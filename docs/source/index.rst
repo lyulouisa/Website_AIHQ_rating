@@ -48,6 +48,7 @@ Contents:
    :maxdepth: 2
    :caption: Quick Links:
 
+   python_env
    installation
    csv_format
 
