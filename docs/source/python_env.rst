@@ -1,46 +1,62 @@
 Set up the Python Environment
 ===============================
 
-Setup Instructions:
+Follow these steps to first install Miniconda, and then create a Python 3.11.3 virtual environment, before proceeding with the website setup.
 
-Follow these steps to first set up a Python 3.11.3 virtual environment, and then install and run the AIHQ Rating Website.
+Step 1: Install Miniconda
+-------------------------
 
-Step 1: Install Python 3.11.3
------------------------------
-If you haven't installed Python 3.11.3 yet, follow these steps:
+1. Download the Miniconda installer for your operating system:
+   - **Windows**: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+   - **macOS**: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+   - **Linux**: https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
-1. Download Python 3.11.3 from the official Python website: https://www.python.org/downloads/release/python-3113/
-2. Install Python 3.11.3:
-   - **Windows**: Run the installer, and make sure to check the box that says **Add Python to PATH**.
-   - **macOS**: Open the `.pkg` file and follow the installation instructions.
-   - **Linux**: Use your package manager to install Python 3.11.3 (e.g., `sudo apt-get install python3.11`).
-
-Step 2: Create and Activate a Virtual Environment (Python 3.11.3)
-------------------------------------------------------------------
-Now let's create an isolated Python environment for the website project:
-
-1. Open the command line:
-   
-   - **Windows**: Press the Windows Key, type **cmd**, and press Enter to open the Command Prompt.
-   - **macOS/Linux**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter.
-
-2. Navigate to the folder where you want to set up the environment. For example, if it's in the **Documents** folder:
-   
-   ```
-   cd Documents
-   ```
-
-3. Create a Python 3.11.3 virtual environment:
-   
-   ```
-   python3.11 -m venv myenv
-   ```
-
-4. Activate the virtual environment:
-   
-   - **Windows**: 
-     myenv\Scripts\activate
+2. Follow the installation steps for your operating system:
+   - **Windows**: Run the downloaded installer `.exe` file, follow the prompts, and make sure to check the box to **Add Miniconda to PATH**.
    - **macOS/Linux**:
-     source myenv/bin/activate
+     - **Open the Terminal**:
+       - **macOS**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
+       - **Linux**: Press **Ctrl + Alt + T** or search for "Terminal" in your applications menu.
+     - In the terminal, run the installer script by typing the following command:
+       
+       ```
+       bash Miniconda3-latest-MacOSX-x86_64.sh  # for macOS
+       ```
+
+       ```
+       bash Miniconda3-latest-Linux-x86_64.sh   # for Linux
+       ```
+
+     - Follow the prompts and agree to the license terms.
+     - Allow the installer to initialize Miniconda (usually by adding it to your shell's PATH).
+
+3. Restart the Command Prompt or Terminal to complete the installation.
+
+4. **Verify the Installation**:
+   - **Open the Terminal**:
+     - **Windows**: Press the **Windows Key**, type **cmd**, and press Enter to open the Command Prompt.
+     - **macOS**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
+     - **Linux**: Press **Ctrl + Alt + T**.
+   - In the terminal, type:
+     conda --version
+
+You should see the version of `conda` displayed. If not, check your PATH settings.
 
 
+Step 2: Create and Activate a Python 3.11.3 Virtual Environment
+---------------------------------------------------------------
+
+1. **Open the Terminal** if it’s not already open (see Step 1 for instructions).
+
+2. In the terminal, create a new `conda` environment with Python 3.11.3:
+   conda create -n myenv python=3.11.3
+
+   - **`myenv`** is the name of your environment. You can replace it with any name you prefer.
+
+3. Activate the environment:
+   conda activate myenv
+
+   Your command prompt should change to indicate that the environment is active, e.g., `(myenv) C:\Users\YourName>`.
+
+
+Congratulations! Now you have a python environment to run the website. You can proceed to the next section **'installation'** to get the website installed. 
