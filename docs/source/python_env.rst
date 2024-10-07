@@ -12,6 +12,7 @@ Step 1: Install Miniconda
    - **Linux**: https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 2. Follow the installation steps for your operating system:
+
    - **Windows**: Run the downloaded installer `.exe` file, follow the prompts, and make sure to check the box to **Add Miniconda to PATH**.
    - **macOS/Linux**:
 
