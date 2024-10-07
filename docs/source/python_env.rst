@@ -42,7 +42,7 @@ Step 1: Install Miniconda
      - **Linux**: Press **Ctrl + Alt + T**.
 
    - In the terminal, type:
-     conda --version
+     ```conda --version```
 
 You should see the version of `conda` displayed. If not, check your PATH settings.
 
