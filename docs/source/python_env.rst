@@ -25,6 +25,7 @@ Now let's create an isolated Python environment for the website project:
    - **macOS/Linux**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter.
 
 2. Navigate to the folder where you want to set up the environment. For example, if it's in the **Documents** folder:
+   
    ```bash
    cd Documents
    ```
