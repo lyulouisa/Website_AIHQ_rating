@@ -7,6 +7,7 @@ Step 1: Install Miniconda
 -------------------------
 
 1. Download the Miniconda installer for your operating system:
+
    - **Windows**: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
    - **macOS**: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
    - **Linux**: https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
