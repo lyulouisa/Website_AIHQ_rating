@@ -14,10 +14,14 @@ Step 1: Install Miniconda
 2. Follow the installation steps for your operating system:
    - **Windows**: Run the downloaded installer `.exe` file, follow the prompts, and make sure to check the box to **Add Miniconda to PATH**.
    - **macOS/Linux**:
+
      - **Open the Terminal**:
+
        - **macOS**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
        - **Linux**: Press **Ctrl + Alt + T** or search for "Terminal" in your applications menu.
+
      - In the terminal, run the installer script by typing the following command:  
+
        - For macOS:
          bash Miniconda3-latest-MacOSX-x86_64.sh
        - For Linux:
