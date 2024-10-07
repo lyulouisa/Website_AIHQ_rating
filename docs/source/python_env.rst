@@ -20,14 +20,17 @@ Step 2: Create and Activate a Virtual Environment (Python 3.11.3)
 Now let's create an isolated Python environment for the website project:
 
 1. Open the command line:
+   
    - **Windows**: Press the Windows Key, type **cmd**, and press Enter to open the Command Prompt.
    - **macOS/Linux**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter.
 
 2. Navigate to the folder where you want to set up the environment. For example, if it's in the **Documents** folder:
    ```bash
    cd Documents
+   ```
 
 3. Create a Python 3.11.3 virtual environment:
     ```bash
    python3.11 -m venv myenv
+   ```
 
