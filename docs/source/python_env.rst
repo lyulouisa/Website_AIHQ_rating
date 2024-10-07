@@ -53,14 +53,19 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 1. **Open the Terminal** if it’s not already open (see Step 1 for instructions).
 
 2. In the terminal, create a new `conda` environment with Python 3.11.3:
+   
+   ```
    conda create -n myenv python=3.11.3
+   ```
 
    - **`myenv`** is the name of your environment. You can replace it with any name you prefer.
 
 3. Activate the environment:
+   
+   ```
    conda activate myenv
+   ```
 
    Your command prompt should change to indicate that the environment is active, e.g., `(myenv) C:\Users\YourName>`.
-
 
 Congratulations! Now you have a python environment to run the website. You can proceed to the next section **'installation'** to get the website installed. 
