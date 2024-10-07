@@ -3,17 +3,31 @@ Set up the Python Environment
 
 Setup Instructions:
 
-1. **Download the Website Folder**:
+Follow these steps to first set up a Python 3.11.3 virtual environment, and then install and run the AIHQ Rating Website.
 
-   - Go to the repository page where the website code is hosted: `AIHQ Rating <https://github.com/lyulouisa/Website_AIHQ_rating.git>`__
+Step 1: Install Python 3.11.3
+-----------------------------
+If you haven't installed Python 3.11.3 yet, follow these steps:
 
-   - In the upper right corner of the page, look for the following button:
+1. Download Python 3.11.3 from the official Python website: https://www.python.org/downloads/release/python-3113/
+2. Install Python 3.11.3:
+   - **Windows**: Run the installer, and make sure to check the box that says **Add Python to PATH**.
+   - **macOS**: Open the `.pkg` file and follow the installation instructions.
+   - **Linux**: Use your package manager to install Python 3.11.3 (e.g., `sudo apt-get install python3.11`).
 
-     .. raw:: html
+Step 2: Create and Activate a Virtual Environment (Python 3.11.3)
+------------------------------------------------------------------
+Now let's create an isolated Python environment for the website project:
 
-        <span style="background-color:#d4edda; padding: 4px; font-weight: bold;">&lt;&gt;Code</span>
+1. Open the command line:
+   - **Windows**: Press the Windows Key, type **cmd**, and press Enter to open the Command Prompt.
+   - **macOS/Linux**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter.
 
-   - Click the **<>Code** button, and from the dropdown menu, select **"Download ZIP"**. This will download a ZIP file of the website folder onto your computer.
+2. Navigate to the folder where you want to set up the environment. For example, if it's in the **Documents** folder:
+   ```bash
+   cd Documents
 
-2. **Extract the ZIP File**:
+3. Create a Python 3.11.3 virtual environment:
+    ```bash
+   python3.11 -m venv myenv
 
