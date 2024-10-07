@@ -17,15 +17,11 @@ Step 1: Install Miniconda
      - **Open the Terminal**:
        - **macOS**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
        - **Linux**: Press **Ctrl + Alt + T** or search for "Terminal" in your applications menu.
-     - In the terminal, run the installer script by typing the following command:
-       
-       ```
-       bash Miniconda3-latest-MacOSX-x86_64.sh  # for macOS
-       ```
-
-       ```
-       bash Miniconda3-latest-Linux-x86_64.sh   # for Linux
-       ```
+     - In the terminal, run the installer script by typing the following command:  
+       - For macOS:
+         bash Miniconda3-latest-MacOSX-x86_64.sh
+       - For Linux:
+         bash Miniconda3-latest-Linux-x86_64.sh
 
      - Follow the prompts and agree to the license terms.
      - Allow the installer to initialize Miniconda (usually by adding it to your shell's PATH).
