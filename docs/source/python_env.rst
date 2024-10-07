@@ -26,13 +26,13 @@ Now let's create an isolated Python environment for the website project:
 
 2. Navigate to the folder where you want to set up the environment. For example, if it's in the **Documents** folder:
    
-   `
+   ``
    cd Documents
-   `
+   ``
 
 3. Create a Python 3.11.3 virtual environment:
    
-   `
+   ``
    python3.11 -m venv myenv
-   `
+   ``
 
