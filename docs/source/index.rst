@@ -54,13 +54,11 @@ Contents:
 
 
 
-Contributors:
+This website is created by:
 ----------
 
 **Yizhou Lyu:**
 `lyulouisa1@g.ucla.edu <mailto:lyulouisa1@g.ucla.edu>`__
 
-**Yuan Chang Leong:**
-`ycleong@uchicago.edu <mailto:ycleong@uchicago.edu>`__
 
 If you have any question or feedback, please don’t hesitate to contact us. We will get back to you as soon as possible. Enjoy!
