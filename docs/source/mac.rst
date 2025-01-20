@@ -26,12 +26,12 @@ Step 1: Install Miniconda
 
 4. **Verify the Installation**:
 
-   - **Open the Terminal**:
-
-     - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
-
-   - In the terminal, type:
-     ```conda --version```
+      - **Open the Terminal**:
+   
+        - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
+   
+      - In the terminal, type:
+        ```conda --version```
 
 You should see the version of `conda` displayed. If not, check your PATH settings.
 
@@ -47,7 +47,7 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
    conda create -n myenv python=3.11.3
    ```
 
-   - **`myenv`** is the name of your environment. You can replace it with any name you prefer.
+   **`myenv`** is the name of your environment. You can replace it with any name you prefer.
 
 3. Activate the environment:
    
