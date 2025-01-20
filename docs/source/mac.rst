@@ -6,9 +6,7 @@ Follow these steps to first install Miniconda, and then create a Python 3.11.3 v
 Step 1: Install Miniconda
 -------------------------
 
-1. Download the Miniconda installer for your operating system:
-
-   -  https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+1. Download the Miniconda installer for your macOS: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
 2. Follow the installation steps for your **macOS**:
 
