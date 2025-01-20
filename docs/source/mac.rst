@@ -1,4 +1,4 @@
-Set up the Python Environment
+Set up the Python Environment for MacOS
 ===============================
 
 Follow these steps to first install Miniconda, and then create a Python 3.11.3 virtual environment, before proceeding with the website setup.
@@ -58,7 +58,7 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 **Congratulations!** Now you have a python environment to run the website. You can proceed to **'installation'** to get the website installed. 
 
 
-Installation
+Installation for MacOS
 ===============================
 
 Recommended Python Version: **3.11.3**
