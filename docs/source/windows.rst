@@ -1,4 +1,4 @@
-Set up the Website for Windows
+Set up the Website for Windows System
 ===============================
 
 Set up the Python Environment
@@ -52,7 +52,7 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 
 **Congratulations!** Now you have a python environment to run the website. You can proceed to **'installation'** to get the website installed. 
 
-Installation for Windows
+Installation
 -----------------------------
 
 Recommended Python Version: **3.11.3**
