@@ -1,10 +1,13 @@
-Set up the Python Environment for Windows
+Set up the Website for Windows
 ===============================
+
+Set up the Python Environment
+-----------------------------
 
 Follow these steps to first install Miniconda, and then create a Python 3.11.3 virtual environment, before proceeding with the website setup.
 
 Step 1: Install Miniconda
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Download the Miniconda installer for your Windows: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 
@@ -27,7 +30,7 @@ You should see the version of `conda` displayed. If not, check your PATH setting
 
 
 Step 2: Create and Activate a Python 3.11.3 Virtual Environment
----------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. **Open the Terminal** if it’s not already open (see Step 1 for instructions).
 
@@ -50,7 +53,7 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 **Congratulations!** Now you have a python environment to run the website. You can proceed to **'installation'** to get the website installed. 
 
 Installation for Windows
-===============================
+-----------------------------
 
 Recommended Python Version: **3.11.3**
 
