@@ -8,15 +8,13 @@ Step 1: Install Miniconda
 
 1. Download the Miniconda installer for your operating system:
 
-   - **macOS**: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+   -  https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
-2. Follow the installation steps for your operating system:
-
-   - **macOS**:
+2. Follow the installation steps for your **macOS**:
 
      - **Open the Terminal**:
 
-       - **macOS**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
+       - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
 
      - In the terminal, run the installer script by typing the following command:  
         ```bash Miniconda3-latest-MacOSX-x86_64.sh```
@@ -30,7 +28,7 @@ Step 1: Install Miniconda
 
    - **Open the Terminal**:
 
-     - **macOS**: Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
+     - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
 
    - In the terminal, type:
      ```conda --version```
@@ -88,7 +86,7 @@ Setup Instructions:
 
 3. **Open the Command Line (Terminal)**:
 
-   - **Mac**: Press **Command (⌘) + Space**, type "Terminal", and press **Enter** to open the Terminal.
+   - Press **Command (⌘) + Space**, type "Terminal", and press **Enter** to open the Terminal.
 
 4. **Navigate to the Website Folder**:
 
