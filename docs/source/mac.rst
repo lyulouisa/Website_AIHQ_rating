@@ -45,18 +45,18 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 2. In the terminal, create a new `conda` environment with Python 3.11.3:
    
    ```
-   conda create -n myenv python=3.11.3
+   conda create -n aihqenv python=3.11.3
    ```
 
-   **`myenv`** is the name of your environment. You can replace it with any name you prefer.
+   **`aihqenv`** is the name of your environment. You can replace it with any name you prefer.
 
 3. Activate the environment:
    
    ```
-   conda activate myenv
+   conda activate aihqenv
    ```
 
-   Your command prompt should change to indicate that the environment is active, e.g., `(myenv) C:\Users\YourName>`.
+   Your command prompt should change to indicate that the environment is active, e.g., `(aihqenv) C:\Users\YourName>`.
 
 **Congratulations!** Now you have a python environment to run the website. You can proceed to **'installation'** to get the website installed. 
 
