@@ -55,7 +55,7 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 
    Your command prompt should change to indicate that the environment is active, e.g., `(myenv) C:\Users\YourName>`.
 
-**Congratulations!** Now you have a python environment to run the website. You can proceed to the next section **'installation'** to get the website installed. 
+**Congratulations!** Now you have a python environment to run the website. You can proceed to **'installation'** to get the website installed. 
 
 
 Installation
