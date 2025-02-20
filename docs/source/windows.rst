@@ -13,7 +13,7 @@ Step 1: Install Miniconda
 
 2. Find the installer package in your Downloads folder. Follow the installation steps for your Windows:
 
-      - Run the downloaded installer `.exe` file, follow the prompts, and make sure to check the box to **Add Miniconda to PATH**.
+      - Run the downloaded installer `.exe` file, follow the prompts and click through without making any changes to the default.
 
 3. Restart the Command Prompt or Terminal to complete the installation.
 
