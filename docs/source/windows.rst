@@ -76,12 +76,18 @@ Setup Instructions:
    - After the ZIP file finishes downloading, locate it in your computer’s Downloads folder (or wherever your files are set to be saved).
    - Right-click on the ZIP file and select **"Extract All"** (Windows) or **"Open with > Archive Utility"** (Mac) to unzip the folder.
 
-3. **Open the Command Line (Terminal)**:
+3. **Download the Fine-tuned Flan-T5-large Model**:
+
+   - Go to the folder where the fine-tuned Flan-T5-Large model is located: `Flan-T5-Large <https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?rlkey=y67szv1n77j0y2qfi7a2q7n3q&e=1&st=2s9qaj9g&dl=0>`__
+
+   - Download the folder onto your computer, and drag the folder named flant5-large-finetuned into the folder you just unzipped in step 2.
+
+4. **Open the Command Line (Terminal)**:
 
    - **Windows**: Press the **Windows Key** on your keyboard, type "cmd", and press **Enter** to open the Command Prompt.
    - **Mac**: Press **Command (⌘) + Space**, type "Terminal", and press **Enter** to open the Terminal.
 
-4. **Navigate to the Website Folder**:
+5. **Navigate to the Website Folder**:
 
    - In the command line window, type the following command and press **Enter**:
    
@@ -91,7 +97,7 @@ Setup Instructions:
 
    - Replace `/path/to/this/website/folder` with the actual location of the folder where you unzipped the files.
 
-5. **Run the Website Script**:
+6. **Run the Website Script**:
 
    - In the same command line window, type the following command and press **Enter**:
    
@@ -99,7 +105,7 @@ Setup Instructions:
      python main.py
      ```
 
-6. **Access the Website**:
+7. **Access the Website**:
 
    - Once the installation is complete, the command line will display a link, something like this:
 
