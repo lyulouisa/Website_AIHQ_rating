@@ -100,8 +100,10 @@ Setup Instructions:
 3. **Download the Fine-tuned Flan-T5-large Model**:
 
    - Go to the folder where the fine-tuned Flan-T5-Large model is located: `Flan-T5-Large <https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?rlkey=y67szv1n77j0y2qfi7a2q7n3q&e=1&st=2s9qaj9g&dl=0>`__
+
+The Dropbox file is named AIHQ_rating.zip. After downloading, unzip AIHQ_rating.zip. Inside, you will find a file named flant5-large-finetuned.
+
    - You could also download the fine-tuned Flan-T5-Large model from Hugging Face (no account required) : `Flant5-Finetuned-AIHQrating <https://huggingface.co/lyulouisaa/flant5-finetuned-aihqrating>`__
-   - Important (Dropbox folder naming): The Dropbox file is named AIHQ_rating.zip. After downloading, unzip AIHQ_rating.zip. Inside, you will find a file named flant5-large-finetuned.
    - Move the model folder: Drag flant5-large-finetuned into the website folder you unzipped in Step 2 (e.g., into Website_AIHQ_rating-main).
 
 4. **Open the Command Line (Terminal)**:
