@@ -157,17 +157,9 @@ If you still encounter errors, ensure you’re inside the `aihqenv` environment 
 
 Confirm it shows Python 3.11.3. Next, reinstall the pinned packages:
 
-     ```
-     python -m pip uninstall -y pandas
-     ```
-
-     ```
-     python -m pip install pandas==1.5.3
-     ```
-
-     ```
-     python -m pip install numpy==1.24.3
-     ```
+- ``python -m pip uninstall -y pandas``
+- ``python -m pip install pandas==1.5.3``
+- ``python -m pip install numpy==1.24.3``
 
 Then try:
 
