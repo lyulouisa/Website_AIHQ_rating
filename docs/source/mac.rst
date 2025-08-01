@@ -9,7 +9,12 @@ Follow these steps to first install Miniconda, and then create a Python 3.11.3 v
 Step 1: Install Miniconda
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Download the Miniconda installer for your macOS: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+1. Download the Miniconda installer for your macOS:
+
+   - **Apple Silicon (M1/M2/M3, ARM64):**  
+     https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+   - **Intel (x86_64):**  
+     https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
 2. Follow the installation steps for your **macOS**:
 
@@ -18,7 +23,14 @@ Step 1: Install Miniconda
        - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
 
      - In the terminal, run the installer script by typing the following command:  
-        ```bash Miniconda3-latest-MacOSX-x86_64.sh```
+        - **Apple Silicon (ARM64):**
+          ```
+          bash Miniconda3-latest-MacOSX-arm64.sh
+          ```
+        - **Intel (x86_64):**
+          ```
+          bash Miniconda3-latest-MacOSX-x86_64.sh
+          ```
 
      - Follow the prompts and agree to the license terms.
      - Allow the installer to initialize Miniconda (usually by adding it to your shell's PATH).
@@ -83,13 +95,14 @@ Setup Instructions:
 2. **Extract the ZIP File**:
 
    - After the ZIP file finishes downloading, locate it in your computer’s Downloads folder (or wherever your files are set to be saved).
-   - Right-click on the ZIP file and select **"Extract All"** (Windows) or **"Open with > Archive Utility"** (Mac) to unzip the folder.
+   - On macOS, double-click the ZIP or right-click → Open With → Archive Utility to unzip. This creates a folder like Website_AIHQ_rating-main.
 
 3. **Download the Fine-tuned Flan-T5-large Model**:
 
    - Go to the folder where the fine-tuned Flan-T5-Large model is located: `Flan-T5-Large <https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?rlkey=y67szv1n77j0y2qfi7a2q7n3q&e=1&st=2s9qaj9g&dl=0>`__
    - You could also download the fine-tuned Flan-T5-Large model from Hugging Face (no account required) : `Flant5-Finetuned-AIHQrating <https://huggingface.co/lyulouisaa/flant5-finetuned-aihqrating>`__
-   - Download the folder onto your computer, and drag the folder named flant5-large-finetuned into the folder you just unzipped in step 2.
+   - Important (Dropbox folder naming): The Dropbox file is named AIHQ_rating.zip. After downloading, unzip AIHQ_rating.zip. Inside, you will find a file named flant5-large-finetuned.
+   - Move the model folder: Drag flant5-large-finetuned into the website folder you unzipped in Step 2 (e.g., into Website_AIHQ_rating-main).
 
 4. **Open the Command Line (Terminal)**:
 
@@ -124,3 +137,35 @@ Setup Instructions:
         </div>
 
    - Open Google Chrome (or another web browser) and copy and paste this link into the address bar at the top. Note: This link will only work on your laptop, and you must use the same laptop that ran the commands in the previous steps.
+
+
+Troubleshooting
+---------------
+
+1. Version mismatch (NumPy/Pandas) error when running `python main.py`:
+This is typically due to incompatible package versions. The included `installation.py` pins:
+
+- pandas==1.5.3
+- numpy==1.24.3
+
+If you still encounter errors, ensure you’re inside the `aihqenv` environment and then run:
+
+     ```
+     python -V
+     ```
+
+Confirm it shows Python 3.11.3. Next, reinstall the pinned packages:
+
+     ```
+     python -m pip uninstall -y pandas
+     python -m pip install pandas==1.5.3
+     python -m pip install numpy==1.24.3
+     ```
+Then try:
+
+     ```
+     python main.py
+     ```
+
+2. Model folder not found:
+Double-check that `flant5-large-finetuned` is inside your website folder (e.g., `Website_AIHQ_rating-main/flant5-large-finetuned`).
