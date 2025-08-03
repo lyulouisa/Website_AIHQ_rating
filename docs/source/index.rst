@@ -43,6 +43,7 @@ The website runs locally on your computer, meaning all actions you take—such a
    </div>
 
 
+
 Below you will find the installation instructions and details about the required CSV file format for this tool.
 
 Contents:
