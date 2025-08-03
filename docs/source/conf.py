@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'AIHQ Rating Website'
+project = 'Automated rating of the Ambiguous Intentions Hostility Questionnaire (AIHQ)'
 copyright = '2024, Yizhou Lyu (Louisa)'
 author = 'Yizhou Lyu (Louisa)'
 
