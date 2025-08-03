@@ -27,7 +27,7 @@ Here’s what the website looks like after successful installation:
 
 **The above image shows the main interface of automated-AIHQ. Here, you begin by selecting a model and uploading your CSV file for rating.**
 
-<i>Automated-AIHQ</i> s a locally run tool that uses large language models (GPT‑3.5‑turbo and Flan‑T5‑large) to automatically score responses to the open‑ended questions in the Ambiguous Intentions Hostility Questionnaire (AIHQ).
+*Automated-AIHQ*is a locally run tool that uses large language models (GPT‑3.5‑turbo and Flan‑T5‑large) to automatically score responses to the open‑ended questions in the Ambiguous Intentions Hostility Questionnaire (AIHQ).
 
 Users prepare a .csv file containing AIHQ text responses, select one of the two models, and receive model‑generated ratings.
 
@@ -35,14 +35,11 @@ The tool supports both:
 
 .. raw:: html
 
-   <div style="font-size: smaller; color: #306692;">
-   <strong>Security and Privacy</strong>: All processing in automated‑AIHQ runs locally on your computer. When you upload a CSV file, generate ratings, and download results, these actions occur entirely on your own machine. If you choose the GPT‑3.5 model, only the text responses being rated are sent to OpenAI’s servers for processing. If you choose the Flan‑T5 model, the entire process remains offline. The model is downloaded to your machine, and all ratings are generated locally without sending any data over the internet.
-
-The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing. If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating.
-
+   <div style="font-size: .95em; color: #306692;">
+     <p><strong>Security and Privacy.</strong> All processing in automated‑AIHQ runs locally on your computer. When you upload a CSV file, generate ratings, and download results, these actions occur entirely on your own machine. If you choose the GPT‑3.5 model, only the text responses being rated are sent to OpenAI’s servers for processing. If you choose the Flan‑T5 model, the entire process remains offline. The model is downloaded to your machine, and all ratings are generated locally without sending any data over the internet.</p>
+     <p>The development and validation of the models is described in our preprint:</p>
+     <p>The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing. If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating.</p>
    </div>
-
-
 
 Below you will find the installation instructions and details about the required CSV file format for this tool.
 
