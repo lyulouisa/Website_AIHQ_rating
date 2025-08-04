@@ -11,7 +11,7 @@ Here’s what the website looks like after successful installation:
 .. image:: ../_static/website.png
    :alt: Screenshot of the AIHQ Rating Website
    :align: center
-   :width: 70%
+   :width: 85%
 
 .. image:: https://img.shields.io/badge/python-3.11-blue
    :alt: Python 3.10
