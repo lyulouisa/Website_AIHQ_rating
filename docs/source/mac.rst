@@ -136,6 +136,34 @@ Step 1: Download the automated-AIHQ
    - Open this link in your web browser. The automated-AIHQ interface will appear.
 
 
+Launching Automated-AIHQ after successful installation
+------------------------------------------------------
+
+If you have already installed the tool, you just need to follow the following steps to open the tool.
+
+1. Open Terminal:
+
+   - Press **Command (⌘) + Space**, type **Terminal**, and press **Enter** to open the Terminal
+   - Navigate to the automated-AIHQ folder:  
+
+     - In the command line window, type ``cd /path/to/Website_AIHQ_rating-main`` and press **Enter** 
+     - Replace ``/path/to/Website_AIHQ_rating-main`` with the location of the folder where you unzipped the files.
+
+2. Run the script:
+
+   - In the same command line window, type ``python main.py`` and press **Enter**
+
+3. Access the automated-AIHQ interface:
+
+   - Once the installation is complete, the command line will display a link, e.g.,
+
+     .. raw:: html
+
+        <div style="text-align:center;">
+          <a href="http://127.0.0.1:5005" style="color:red; text-decoration:underline;">http://127.0.0.1:5005</a>
+        </div>
+
+   - Open this link in your web browser. The automated-AIHQ interface will appear.
 
 Troubleshooting
 ---------------
