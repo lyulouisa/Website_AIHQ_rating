@@ -198,4 +198,4 @@ Troubleshooting
 Video
 ---------------
 
-Click here for a `video <https://youtu.be/n4YqlaiDoEE>`__ showing you how to prepare python environment and install automated-AIHQ step by step. 
+Click here for a `video <https://youtu.be/n4YqlaiDoEE>`__ showing you how to install automated-AIHQ on your Mac step by step. 
