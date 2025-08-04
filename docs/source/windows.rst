@@ -1,118 +1,180 @@
-Set up the Website for Windows System
-===============================
+Set up the Website for Windows
+==============================
 
-Set up the Python Environment
+1. Prepare Python Environment
 -----------------------------
 
-Follow these steps to first install Miniconda, and then create a Python 3.11.3 virtual environment, before proceeding with the website setup.
+You will first install Miniconda, then create a Python 3.11.3 virtual environment.
 
 Step 1: Install Miniconda
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Download the Miniconda installer for your Windows: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+1. Download the correct installer for your PC:
 
-2. Find the installer package in your Downloads folder. Follow the installation steps for your Windows:
+   - Windows (x86_64):
+     https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 
-      - Run the downloaded installer `.exe` file, follow the prompts and click through without making any changes to the default.
+2. Open Command Prompt:
 
-3. Restart the Command Prompt or Terminal to complete the installation.
+   - Press the **Windows key**, type **cmd**, and press **Enter**
 
-4. **Verify the Installation**:
+3. Run the installer for Miniconda:
 
-      - **Open the Terminal**:
-   
-        - Press the **Windows Key**, type **cmd**, and press Enter to open the Command Prompt.
-   
-      - In the terminal, type:
-        ```conda --version```
+   - Windows (x86_64): ::
 
-You should see the version of `conda` displayed. If not, check your PATH settings.
+       Miniconda3-latest-Windows-x86_64.exe
 
+     - Follow the prompts and agree to the license terms.
+     - Allow the installer to initialize Miniconda (it will add itself to your system’s PATH).
+
+4. Restart Command Prompt and verify installation.
+
+   - Open Command Prompt:
+
+     - Press the **Windows key**, type **cmd**, and press **Enter**
+
+   - In the command prompt window, type ::
+
+       conda --version
+
+   - You should see the conda version displayed. If not, check your PATH settings.
 
 Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. **Open the Terminal** if it’s not already open (see Step 1 for instructions).
+1. Open Command Prompt (see Step 1.2).
 
-2. In the terminal, create a new `conda` environment with Python 3.11.3:
-   
-   ```
-   conda create -n aihqenv python=3.11.3
-   ```
+2. Create a new Python 3.11.3 conda environment by typing the following into the prompt: ::
 
-   - **`aihqenv`** is the name of your environment. You can replace it with any name you prefer.
+       conda create -n aihqenv python=3.11.3
 
-3. Activate the environment:
-   
-   ```
-   conda activate aihqenv
-   ```
+   *note that aihqenv is the name of your environment. You can replace it with any name of your choosing.*
 
-   Your command prompt should change to indicate that the environment is active, e.g., `(aihqenv) C:\Users\YourName>`.
+3. Activate the environment: ::
 
-**Congratulations!** Now you have a python environment to run the website. You can proceed to **'installation'** to get the website installed. 
+       conda activate aihqenv
 
-Installation
------------------------------
+   Your prompt should now show ``(aihqenv)`` to indicate the environment is active.
 
-Recommended Python Version: **3.11.3**
+2. Install automated-AIHQ
+-------------------------
 
-Setup Instructions:
+Step 1: Download the automated-AIHQ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. **Download the Website Folder**:
+1. Visit the repository page: https://github.com/lyulouisa/Website_AIHQ_rating
 
-   - Go to the repository page where the website code is hosted: `AIHQ Rating <https://github.com/lyulouisa/Website_AIHQ_rating.git>`__
-
-   - In the upper right corner of the page, look for the following button:
+   - At the top-right area of the page, just above the list of files, you’ll see a green button labeled
 
      .. raw:: html
 
-        <span style="background-color:#d4edda; padding: 4px; font-weight: bold;">&lt;&gt;Code</span>
+        <span style="background-color:#d4edda; padding:4px; font-weight:bold;">&lt;&gt;Code</span>
 
-   - Click the **<>Code** button, and from the dropdown menu, select **"Download ZIP"**. This will download a ZIP file of the website folder onto your computer.
+   - Click the **<> Code** button, and in the menu that appears, choose **“Download ZIP.”** This will download a ZIP file of the website folder onto your computer with the name “Website_AIHQ_rating-main.zip”
 
-2. **Extract the ZIP File**:
+2. Extract the ZIP file:
 
-   - After the ZIP file finishes downloading, locate it in your computer’s Downloads folder (or wherever your files are set to be saved).
-   - Right-click on the ZIP file and select **"Extract All"** (Windows) or **"Open with > Archive Utility"** (Mac) to unzip the folder.
+   - Once the ZIP file finishes downloading, open your Downloads folder (or wherever your browser saves files).
+   - Look for a file named Website_AIHQ_rating-main.zip.
+   - Right-click the ZIP file and select **Extract All…**.  
+   - You should now see a folder called Website_AIHQ_rating-main. This is the automated-AIHQ tool.
 
-3. **Download the Fine-tuned Flan-T5-large Model**:
+3. Download the fine-tuned Flan-T5-large model (you can ignore this step if you do not intend to use this model)
 
-   - Go to the folder where the fine-tuned Flan-T5-Large model is located: `Flan-T5-Large <https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?rlkey=y67szv1n77j0y2qfi7a2q7n3q&e=1&st=2s9qaj9g&dl=0>`__
-   - You could also download the fine-tuned Flan-T5-Large model from Hugging Face (no account required) : `Flant5-Finetuned-AIHQrating <https://huggingface.co/lyulouisaa/flant5-finetuned-aihqrating>`__
-   - Download the folder onto your computer, and drag the folder named flant5-large-finetuned into the folder you just unzipped in step 2.
+   - There are three options to download the model:
 
-4. **Open the Command Line (Terminal)**:
+     i.  **Zenodo:** https://zenodo.org/records/16730672 (download the zipped folder)  
+     ii. **Dropbox:** https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?dl=0  
+     iii. **Hugging Face:** https://huggingface.co/lyulouisaa/flant5-finetuned-aihqrating  
+          You will need to download each file directly and save it in a folder titled: ``flant5-large-finetuned``
 
-   - **Windows**: Press the **Windows Key** on your keyboard, type "cmd", and press **Enter** to open the Command Prompt.
-   - **Mac**: Press **Command (⌘) + Space**, type "Terminal", and press **Enter** to open the Terminal.
+   - Once the download is complete, click **Extract all** to unzip. You should see a folder named ``flant5-large-finetuned``
 
-5. **Navigate to the Website Folder**:
+4. Place the folder in the Website_AIHQ_rating folder:
 
-   - In the command line window, type the following command and press **Enter**:
-   
-     ```
-     cd /path/to/this/website/folder
-     ```
+   - Drag the ``flant5-large-finetuned`` folder into the ``Website_AIHQ_rating-main`` folder.
+   - When you are done, your folder structure should look like:
 
-   - Replace `/path/to/this/website/folder` with the actual location of the folder where you unzipped the files.
+5. Open Command Prompt:
 
-6. **Run the Website Script**:
+   - Press the **Windows key**, type **cmd**, and press **Enter** to open Command Prompt
+   - Navigate to the automated-AIHQ folder:  
 
-   - In the same command line window, type the following command and press **Enter**:
-   
-     ```
-     python main.py
-     ```
+     - In the command line window, type ``cd \path\to\Website_AIHQ_rating-main`` and press **Enter**  
+     - Replace ``\path\to\Website_AIHQ_rating-main`` with the location of the folder where you unzipped the files.
 
-7. **Access the Website**:
+6. Run the script:
 
-   - Once the installation is complete, the command line will display a link, something like this:
+   - In the same command line window, type ``python main.py`` and press **Enter**
+
+7. Access the automated-AIHQ interface:
+
+   - Once the installation is complete, the command line will display a link, e.g.,
 
      .. raw:: html
 
-        <div style="text-align: center;">
-            <a href="http://127.0.0.1:5005" style="color: red; text-decoration: underline; font-style: normal;">http://127.0.0.1:5005</a>
+        <div style="text-align:center;">
+          <a href="http://127.0.0.1:5005" style="color:red; text-decoration:underline;">http://127.0.0.1:5005</a>
         </div>
 
-   - Open Google Chrome (or another web browser) and copy and paste this link into the address bar at the top. Note: This link will only work on your laptop, and you must use the same laptop that ran the commands in the previous steps.
+   - Open this link in your web browser. The automated-AIHQ interface will appear.
+
+Launching Automated-AIHQ after successful installation
+------------------------------------------------------
+
+If you have already installed the tool, you just need to follow the following steps to open the tool.
+
+1. Open Command Prompt:
+
+   - Press the **Windows key**, type **cmd**, and press **Enter** to open Command Prompt
+   - Navigate to the automated-AIHQ folder:  
+
+     - In the command line window, type ``cd \path\to\Website_AIHQ_rating-main`` and press **Enter**  
+     - Replace ``\path\to\Website_AIHQ_rating-main`` with the location of the folder where you unzipped the files.
+
+2. Run the script:
+
+   - In the same command line window, type ``python main.py`` and press **Enter**
+
+3. Access the automated-AIHQ interface:
+
+   - Once the installation is complete, the command line will display a link, e.g.,
+
+     .. raw:: html
+
+        <div style="text-align:center;">
+          <a href="http://127.0.0.1:5005" style="color:red; text-decoration:underline;">http://127.0.0.1:5005</a>
+        </div>
+
+   - Open this link in your web browser. The automated-AIHQ interface will appear.
+
+Troubleshooting
+---------------
+
+1. Version mismatch (NumPy/Pandas) error when running ``python main.py``: This is typically due to incompatible package versions. The included ``installation.py`` pins:
+
+   - pandas==1.5.3  
+   - numpy==1.24.3  
+
+   If you still encounter errors, ensure you’re inside the ``aihqenv`` environment and then run: ::
+
+       python -V
+
+   Confirm it shows Python 3.11.3. Next, reinstall the pinned packages: ::
+
+       python -m pip uninstall -y pandas
+       python -m pip install pandas==1.5.3
+       python -m pip install numpy==1.24.3
+
+   Then try ::
+
+       python main.py
+
+2. Model folder not found:
+
+   Double-check that ``flant5-large-finetuned`` is inside your website folder, e.g.:
+
+   ::
+
+     Website_AIHQ_rating-main\flant5-large-finetuned
+
