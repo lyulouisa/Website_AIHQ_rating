@@ -1,135 +1,121 @@
 Set up the Website for MacOS
 ============================
 
-Set up the Python Environment
+1. Prepare Python Environment
 -----------------------------
 
-Follow these steps to first install Miniconda, and then create a Python 3.11.3 virtual environment, before proceeding with the website setup.
+You will first install Miniconda, then create a Python 3.11.3 virtual environment.
 
 Step 1: Install Miniconda
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Download the Miniconda installer for your macOS:
-   - **Apple Silicon (M1/M2/M3, ARM64):**  
+1. Download the correct installer for your Mac:
+
+   - Apple Silicon (M1/M2/M3, ARM64):  
      https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
-   - **Intel (x86_64):**  
+   - Intel (x86_64):
      https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
+2. Open Terminal:
 
-2. Follow the installation steps for your **macOS**:
-     - **Open the Terminal**:
+   - Press **Command (⌘) + Space**, type **Terminal**, and press Enter
 
-       - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
+3. Run the installer for Miniconda:
 
-     - In the terminal, run the installer script by typing the following command:  
-        - **Apple Silicon (ARM64):**
-          ```
-          bash Miniconda3-latest-MacOSX-arm64.sh
-          ```
-        - **Intel (x86_64):**
-          ```
-          bash Miniconda3-latest-MacOSX-x86_64.sh
-          ```
+   - **Apple Silicon (ARM64):**
+       ```
+       bash Miniconda3-latest-MacOSX-arm64.sh
+       ```
+   - **Intel (x86_64):**
+       ```
+       bash Miniconda3-latest-MacOSX-x86_64.sh
+       ```
 
-     - Follow the prompts and agree to the license terms.
-     - Allow the installer to initialize Miniconda (usually by adding it to your shell's PATH).
+        - Follow the prompts and agree to the license terms.
+        - Allow the installer to initialize Miniconda (usually by adding it to your shell's PATH).
 
+4. Restart Terminal and verify installation.
 
-3. Restart the Command Prompt or Terminal to complete the installation.
-
-
-4. **Verify the Installation**:
-      - **Open the Terminal**:
-   
-        - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
-   
-      - In the terminal, type:
-        ```conda --version```
-
-You should see the version of `conda` displayed. If not, check your PATH settings.
+   - Open Terminal:
+     - Press **Command (⌘) + Space**, type **Terminal**, and press Enter to open Terminal.
+   - In the terminal window, type:
+     ```conda --version```
+   - You should see the conda version displayed. If not, check your PATH settings.
 
 
 Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. **Open the Terminal** if it’s not already open (see Step 1 for instructions).
+1. Open Terminal (see Step 1.2 for instructions).
 
-
-2. In the terminal, create a new `conda` environment with Python 3.11.3:
+2. Create a new Python 3.11.3 conda environment by typing the following into terminal:
    ```
    conda create -n aihqenv python=3.11.3
    ```
 
-   **`aihqenv`** is the name of your environment. You can replace it with any name you prefer.
-
+      - note that aihqenv is the name of your environment. You can replace it with any name of your choosing.
 
 3. Activate the environment:
    ```
    conda activate aihqenv
    ```
 
-   Your command prompt should change to indicate that the environment is active, e.g., `(aihqenv) C:\Users\YourName>`.
+   Your prompt should now show (aihqenv) to indicate the environment is active.
 
-
-**Congratulations!** Now you have a python environment to run the website. You can proceed to **'installation'** to get the website installed. 
-
-
-Installation
+2. Install automated-AIHQ
 -----------------------------
 
-Recommended Python Version: **3.11.3**
+Step 1: Download the automated-AIHQ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Setup Instructions:
+1. Visit the repository page: `https://github.com/lyulouisa/Website_AIHQ_rating <https://github.com/lyulouisa/Website_AIHQ_rating>`__
 
-1. **Download the Website Folder**:
-   - Go to the repository page where the website code is hosted: `AIHQ Rating <https://github.com/lyulouisa/Website_AIHQ_rating.git>`__
-
-   - In the upper right corner of the page, look for the following button:
-
+   - At the top‑right area of the page, just above the list of files, you’ll see a green button labeled 
      .. raw:: html
 
         <span style="background-color:#d4edda; padding: 4px; font-weight: bold;">&lt;&gt;Code</span>
 
-   - Click the **<>Code** button, and from the dropdown menu, select **"Download ZIP"**. This will download a ZIP file of the website folder onto your computer.
+   - Click the **<>Code** button, and in the menu that appears, choose **"Download ZIP"**. This will download a ZIP file of the website folder onto your computer with the name “Website_AIHQ_rating-main.zip”
 
+2. Extract the ZIP File:
 
-2. **Extract the ZIP File**:
-   - After the ZIP file finishes downloading, locate it in your computer’s Downloads folder (or wherever your files are set to be saved).
-   - On macOS, double-click the ZIP or right-click → Open With → Archive Utility to unzip. This creates a folder like Website_AIHQ_rating-main.
+   - Once the ZIP file finishes downloading, open your Downloads folder (or wherever your browser saves files).
+   - Look for a file named Website_AIHQ_rating-main.zip.
+   - Double‑click the ZIP file. Your Mac will automatically unzip it into a folder with the same name (but without .zip at the end). Alternatively, you can right click the zipped folder and select Open With → Archive Utility to unzip the folder.
+   - You should now see a folder called Website_AIHQ_rating-main. This is the automated‑AIHQ tool.
 
+3. Download the Fine-tuned Flan-T5-large Model (you can ignore this step if you do not intend to use this model)
 
-3. **Download the Fine-tuned Flan-T5-large Model**:
-   - Go to the folder where the fine-tuned Flan-T5-Large model is located: `Flan-T5-Large <https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?rlkey=y67szv1n77j0y2qfi7a2q7n3q&e=1&st=2s9qaj9g&dl=0>`__
-The Dropbox file is named AIHQ_rating.zip. After downloading, unzip AIHQ_rating.zip. Inside, you will find a file named flant5-large-finetuned.
+   - There are three options to download the model:
+         i. Zenodo: `https://zenodo.org/records/16730672 <https://zenodo.org/records/16730672>`__ (Download the zipped folder)
+         ii. `Dropbox <https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?rlkey=y67szv1n77j0y2qfi7a2q7n3q&e=1&st=2s9qaj9g&dl=0>`__
+         iii. `Hugging Face <https://huggingface.co/lyulouisaa/flant5-finetuned-aihqrating>`__: You will need to download each file directly and save it in a folder titled: flant5-finetuned-aihqrating
 
-   - You could also download the fine-tuned Flan-T5-Large model from Hugging Face (no account required) : `Flant5-Finetuned-AIHQrating <https://huggingface.co/lyulouisaa/flant5-finetuned-aihqrating>`__
-   - Move the model folder: Drag flant5-large-finetuned into the website folder you unzipped in Step 2 (e.g., into Website_AIHQ_rating-main).
+   - Once the download is complete, double-click to unzip. You should see a folder named flant5-large-fine-tuned
 
+4. Place the folder in the Website_AIHQ_rating folder
 
-4. **Open the Command Line (Terminal)**:
-   - Press **Command (⌘) + Space**, type "Terminal", and press **Enter** to open the Terminal.
+   - Drag the flant5-large-finetuned folder into the Website_AIHQ_rating-main folder.
+   - When you are done, your folder structure should look like:
 
+5. Open Terminal
 
-5. **Navigate to the Website Folder**:
-   - In the command line window, type the following command and press **Enter**:
-   
-     ```
-     cd /path/to/this/website/folder
-     ```
+   - Press **Command (⌘) + Space**, type **Terminal**, and press **Enter** to open Terminal
+   - **Navigate to the automated-AIHQ  Folder:**
 
-   - Replace `/path/to/this/website/folder` with the actual location of the folder where you unzipped the files.
+      - In the command line window, type      ```
+  cd /path/to/this/website/folder
+  ``` and press **Enter**:
+      - Replace /path/to/this/website/folder with the location of the folder where you unzipped the files.
 
-
-6. **Run the Website Script**:
-   - In the same command line window, type the following command and press **Enter**:
-   
-     ```
+6. Run the Script:
+   - In the same command line window, type ```
      python main.py
-     ```
+     ``` and press **Enter**.
 
 
-7. **Access the Website**:
-   - Once the installation is complete, the command line will display a link, something like this:
+7.Access the automated-AIHQ interface:
+   - Once the installation is complete, the command line will display a link, e.g., :
 
      .. raw:: html
 
@@ -137,7 +123,7 @@ The Dropbox file is named AIHQ_rating.zip. After downloading, unzip AIHQ_rating.
             <a href="http://127.0.0.1:5005" style="color: red; text-decoration: underline; font-style: normal;">http://127.0.0.1:5005</a>
         </div>
 
-   - Open Google Chrome (or another web browser) and copy and paste this link into the address bar at the top. Note: This link will only work on your laptop, and you must use the same laptop that ran the commands in the previous steps.
+   - Open this link in your web browser. The automated‑AIHQ interface will appear.
 
 
 Troubleshooting
