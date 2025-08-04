@@ -192,7 +192,6 @@ Troubleshooting
    Double-check that flant5-large-finetuned is inside your website folde e.g.:
 
    ::
-
      Website_AIHQ_rating-main/flant5-large-finetuned
 
 Video
