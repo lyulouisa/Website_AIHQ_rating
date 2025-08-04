@@ -97,7 +97,7 @@ Step 1: Download the automated-AIHQ
 
    - Once the download is complete, double-click to unzip. You should see a folder named ``flant5-large-finetuned``
 
-4. Place the folder in the Website_AIHQ_rating folder
+4. Place the folder in the Website_AIHQ_rating folder:
 
    - Drag the ``flant5-large-finetuned`` folder into the ``Website_AIHQ_rating-main`` folder.
    - When you are done, your folder structure should look like
