@@ -48,7 +48,7 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 
        conda create -n aihqenv python=3.11.3
 
-   *note that aihqenv is the name of your environment. You can replace it with any name of your choosing.*
+   *Note that aihqenv is the name of your environment. You can replace it with any name of your choosing.*
 
 3. Activate the environment: ::
 
@@ -134,7 +134,7 @@ If you have already installed the tool, you just need to follow the following st
    - Press the **Windows key**, type **cmd**, and press **Enter** to open Command Prompt
    - Navigate to the automated-AIHQ folder:  
 
-     - In the command line window, type ``cd \path\to\Website_AIHQ_rating-main`` and press **Enter**  
+     - In the command line window, type ``cd \path\to\Website_AIHQ_rating-main`` and press **Enter** 
      - Replace ``\path\to\Website_AIHQ_rating-main`` with the location of the folder where you unzipped the files.
 
 2. Run the script:
