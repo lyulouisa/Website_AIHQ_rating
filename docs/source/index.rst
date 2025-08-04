@@ -33,18 +33,12 @@ Users prepare a .csv file containing AIHQ text responses, select one of the two 
 
 The tool supports both:
 
-1. **Flan-T5-large:** fine-tuned with human-rated AIHQ responses. The model is downloaded to your computer and runs entirely offline; ratings are generated locally and no data are sent over the internet.
-2. **GPT-3.5-turbo:** uses OpenAI’s base model (fine-tuned model cannot be shared), so requests are sent to OpenAI for scoring. Only the text you submit for rating is transmitted.
+1. **Flan-T5-large:** Fine‑tuned on human‑rated AIHQ data. The model is downloaded to your computer and all scoring is done locally. No data is sent over the internet, making this option ideal when responses must remain fully secure and private.
+2. **GPT-3.5-turbo:** The base GPT‑3.5‑turbo model (OpenAI does not permit distribution of the fine‑tuned version). This approach requires your own OpenAI API key and the text of each response is sent to OpenAI’s servers for rating.
 
 .. raw:: html
 
-   <div style="font-size: .95em; color: #306692;">
-     <p><strong>Security and Privacy.</strong> All processing in automated‑AIHQ runs locally on your computer. When you upload a CSV file, generate ratings, and download results, these actions occur entirely on your own machine. If you choose the GPT‑3.5 model, only the text responses being rated are sent to OpenAI’s servers for processing. If you choose the Flan‑T5 model, the entire process remains offline. The model is downloaded to your machine, and all ratings are generated locally without sending any data over the internet.</p>
-     <p>The development and validation of the models is described in our preprint:</p>
-     <p>The website runs locally on your computer, meaning all actions you take—such as uploading CSVs, processing files, and downloading results—remain entirely on your local machine. No data, including sensitive information like API keys, is sent over the internet unless you use the GPT model for rating responses. In that case, only the sentences you want to rate are sent to OpenAI for processing. If you choose to use the fine-tuned Flan-T5 model, everything remains fully local, as the model is downloaded to your computer and all the processing is done on your machine. However, when using GPT-3.5, the responses are sent to OpenAI's servers for rating.</p>
-   </div>
-
-Below you will find the installation instructions and details about the required CSV file format for this tool.
+Below you will find instructions for installation and use.
 
 Contents:
 ----------
@@ -65,4 +59,4 @@ This website is created by:
 `lyulouisa1@g.ucla.edu <mailto:lyulouisa1@g.ucla.edu>`__
 
 
-If you have any question or feedback, please don’t hesitate to contact us. We will get back to you as soon as possible. Enjoy!
+If you have any questions or feedback, please reach out. We’ll respond as soon as possible.
