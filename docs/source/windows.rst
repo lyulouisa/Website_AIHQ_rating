@@ -56,6 +56,11 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 
    Your prompt should now show ``(aihqenv)`` to indicate the environment is active.
 
+.. image:: ../_static/environmentcommand_windows.png
+   :alt: Command line
+   :align: center
+   :width: 50%
+
 2. Install automated-AIHQ
 -------------------------
 
