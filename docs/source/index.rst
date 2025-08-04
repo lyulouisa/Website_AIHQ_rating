@@ -33,8 +33,8 @@ Users prepare a .csv file containing AIHQ text responses, select one of the two 
 
 The tool supports both:
 
-- **Flan-T5-large:** fine-tuned with human-rated AIHQ responses. The model is downloaded to your computer and runs entirely offline; ratings are generated locally and no data are sent over the internet.
-- **GPT-3.5-turbo:** uses OpenAI’s base model (fine-tuned model cannot be shared), so requests are sent to OpenAI for scoring. Only the text you submit for rating is transmitted.
+1. **Flan-T5-large:** fine-tuned with human-rated AIHQ responses. The model is downloaded to your computer and runs entirely offline; ratings are generated locally and no data are sent over the internet.
+2. **GPT-3.5-turbo:** uses OpenAI’s base model (fine-tuned model cannot be shared), so requests are sent to OpenAI for scoring. Only the text you submit for rating is transmitted.
 
 .. raw:: html
 
