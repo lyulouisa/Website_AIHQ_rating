@@ -99,7 +99,12 @@ Step 1: Download the automated-AIHQ
 4. Place the folder in the Website_AIHQ_rating folder:
 
    - Drag the ``flant5-large-finetuned`` folder into the ``Website_AIHQ_rating-main`` folder.
-   - When you are done, your folder structure should look like
+   - When you are done, your folder structure should look like:
+
+.. image:: ../_static/folderstructure.png
+   :alt: Screenshot of the AIHQ Rating Website
+   :align: center
+   :width: 50%
 
 5. Open Terminal:
 
