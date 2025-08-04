@@ -102,14 +102,14 @@ Step 1: Download the automated-AIHQ
    - Drag the ``flant5-large-finetuned`` folder into the ``Website_AIHQ_rating-main`` folder.
    - When you are done, your folder structure should look like
 
-5. Open Terminal ::
+5. Open Terminal:
 
    - Press **Command (⌘) + Space**, type **Terminal**, and press **Enter** to open the Terminal
    - Navigate to the automated-AIHQ folder:  
      - In the command line window, type ``cd /path/to/Website_AIHQ_rating-main`` and press **Enter**  
      - Replace ``/path/to/Website_AIHQ_rating-main`` with the location of the folder where you unzipped the files.
 
-6. Run the script: ::
+6. Run the script:
 
    - In the same command line window, type ``python main.py`` and press **Enter**
 
