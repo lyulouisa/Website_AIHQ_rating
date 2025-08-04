@@ -148,7 +148,7 @@ Troubleshooting
 
        python main.py
 
-2. Model folder not found
+2. Model folder not found:
 
    Double-check that flant5-large-finetuned is inside your website folde e.g.:
 
