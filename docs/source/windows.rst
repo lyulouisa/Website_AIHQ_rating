@@ -186,4 +186,4 @@ Troubleshooting
 Video
 ---------------
 
-Click here for a `video <https://youtu.be/g_sI8MOr_lk>`__ showing you how to prepare the Python environment and install automated-AIHQ step by step.
+Click here for a `video <https://youtu.be/g_sI8MOr_lk>`__ showing you how to showing you how to install automated-AIHQ on your PC step by step. 
