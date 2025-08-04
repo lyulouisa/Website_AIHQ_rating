@@ -86,7 +86,7 @@ Step 1: Download the automated-AIHQ
    - Double-click the ZIP file. Your Mac will automatically unzip it into a folder with the same name (but without .zip at the end). Alternatively, you can right-click the zipped folder and select *Open With → Archive Utility* to unzip the folder.
    - You should now see a folder called Website_AIHQ_rating-main. This is the automated-AIHQ tool.
 
-3. Download the fine-tuned Flan-T5-large model** (you can ignore this step if you do not intend to use this model)
+3. Download the fine-tuned Flan-T5-large model (you can ignore this step if you do not intend to use this model)
 
    - There are three options to download the model:
 
@@ -149,7 +149,7 @@ Troubleshooting
 
        python main.py
 
-2. **Model folder not found**
+2. Model folder not found
 
    Double-check that flant5-large-finetuned is inside your website folde e.g.:
 
