@@ -68,8 +68,7 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 Step 1: Download the automated-AIHQ
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Visit the repository page:  
-   ``https://github.com/lyulouisa/Website_AIHQ_rating``
+1. Visit the repository page: https://github.com/lyulouisa/Website_AIHQ_rating
 
    - At the top-right area of the page, just above the list of files, you’ll see a green button labeled
 
