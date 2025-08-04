@@ -183,3 +183,7 @@ Troubleshooting
 
      Website_AIHQ_rating-main\flant5-large-finetuned
 
+Video
+---------------
+
+Click here for a `video <https://youtu.be/g_sI8MOr_lk>`__ showing you how to prepare the Python environment and install automated-AIHQ step by step.
