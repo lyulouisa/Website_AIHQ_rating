@@ -60,7 +60,12 @@ Step 2: Create and Activate a Python 3.11.3 Virtual Environment
 
        conda activate aihqenv
 
-   Your prompt should now show ``(aihqenv)`` to indicate the environment is active.
+   Your prompt should now show ``(aihqenv)`` to indicate the environment is active:
+
+.. image:: ../_static/environmentcommand.png
+   :alt: Command line
+   :align: center
+   :width: 50%
 
 2. Install automated-AIHQ
 -------------------------
@@ -102,7 +107,7 @@ Step 1: Download the automated-AIHQ
    - When you are done, your folder structure should look like:
 
 .. image:: ../_static/folderstructure.png
-   :alt: Screenshot of the AIHQ Rating Website
+   :alt: Folder structure
    :align: center
    :width: 50%
 
@@ -110,7 +115,8 @@ Step 1: Download the automated-AIHQ
 
    - Press **Command (⌘) + Space**, type **Terminal**, and press **Enter** to open the Terminal
    - Navigate to the automated-AIHQ folder:  
-     - In the command line window, type ``cd /path/to/Website_AIHQ_rating-main`` and press **Enter**  
+
+     - In the command line window, type ``cd /path/to/Website_AIHQ_rating-main`` and press **Enter** 
      - Replace ``/path/to/Website_AIHQ_rating-main`` with the location of the folder where you unzipped the files.
 
 6. Run the script:
