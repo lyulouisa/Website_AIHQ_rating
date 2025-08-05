@@ -18,7 +18,7 @@ Automated rating of the Ambiguous Intentions Hostility Questionnaire (automated-
    :alt: macOS Catalina
    :target: https://www.apple.com/macos/catalina/
 
-*Automated-AIHQ* is a locally run tool that uses large language models (GPT‑3.5‑turbo and Flan‑T5‑large) to automatically score responses to the open‑ended questions in the Ambiguous Intentions Hostility Questionnaire (AIHQ).
+*Automated-AIHQ* is a tool that uses large language models (GPT‑3.5‑turbo and Flan‑T5‑large) to automatically score responses to the open‑ended questions in the Ambiguous Intentions Hostility Questionnaire (AIHQ).
 
 Users prepare a .csv file containing AIHQ text responses, select one of the two models, and receive model‑generated ratings.
 
