@@ -135,6 +135,12 @@ Step 1: Download the automated-AIHQ
 
    - Open this link in your web browser. The automated-AIHQ interface will appear.
 
+.. image:: ../_static/website.png
+   :alt: Screenshot of the AIHQ Rating Website
+   :align: center
+   :width: 85%
+
+**The above image shows the main interface of automated-AIHQ. Here, you begin by selecting a model and uploading your CSV file for rating.**
 
 Launching Automated-AIHQ after successful installation
 ------------------------------------------------------
@@ -164,11 +170,6 @@ If you have already installed the tool, you just need to follow the following st
         </div>
 
    - Open this link in your web browser. The automated-AIHQ interface will appear.
-
-.. image:: ../_static/website.png
-   :alt: Screenshot of the AIHQ Rating Website
-   :align: center
-   :width: 85%
 
 
 Troubleshooting
