@@ -2,6 +2,8 @@
 
 ### **Setup Instructions:**
 
+Go to this [website](https://aihqrating.readthedocs.io/en/latest/index.html) for detailed step-by-step installation instruction. 
+
 1. **Download the Website Folder:**
    - Go to the repository page where the website code is hosted.
    - In the upper right corner of the page, look for the green button labeled **`<>Code`** (this button will appear green).
