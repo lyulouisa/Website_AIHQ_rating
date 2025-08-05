@@ -52,6 +52,11 @@ Go to this [website](https://aihqrating.readthedocs.io/en/latest/index.html) for
          - Make sure your OpenAI account has enough funds to run the model.
        - **Fine-tuned Flan-T5-large**:
          - This model is free to use, but you’ll need to download it. It’s approximately **3GB** in size, so ensure you have enough space and a good internet connection for the download.
+         - There are three options to download the model:
+            - **Zenodo:** https://zenodo.org/records/16730672 (download the zipped folder)
+            - **Dropbox:** https://www.dropbox.com/scl/fi/8knvlq83r9j031axqiqq7/AIHQ_rating.zip?dl=0
+            - **Hugging Face:** https://huggingface.co/lyulouisaa/flant5-finetuned-aihqrating  
+          You will need to download each file directly and save it in a folder titled: ``flant5-large-finetuned``
 
    - **Step 2**: Upload Your CSV File:
      - You’ll be prompted to upload a `.csv` file containing the responses you want to rate.
