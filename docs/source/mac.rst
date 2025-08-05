@@ -165,6 +165,12 @@ If you have already installed the tool, you just need to follow the following st
 
    - Open this link in your web browser. The automated-AIHQ interface will appear.
 
+.. image:: ../_static/website.png
+   :alt: Screenshot of the AIHQ Rating Website
+   :align: center
+   :width: 85%
+
+
 Troubleshooting
 ---------------
 
