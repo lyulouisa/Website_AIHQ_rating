@@ -6,11 +6,6 @@
 Automated rating of the Ambiguous Intentions Hostility Questionnaire (automated-AIHQ)
 ===========================
 
-.. image:: ../_static/website.png
-   :alt: Screenshot of the AIHQ Rating Website
-   :align: center
-   :width: 85%
-
 .. image:: https://img.shields.io/badge/python-3.11-blue
    :alt: Python 3.10
    :target: https://www.python.org/downloads/release/python-3110/
