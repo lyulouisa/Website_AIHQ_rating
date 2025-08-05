@@ -6,8 +6,6 @@
 Automated rating of the Ambiguous Intentions Hostility Questionnaire (automated-AIHQ)
 ===========================
 
-Here’s what the website looks like after successful installation:
-
 .. image:: ../_static/website.png
    :alt: Screenshot of the AIHQ Rating Website
    :align: center
