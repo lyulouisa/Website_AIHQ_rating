@@ -1,4 +1,4 @@
-Set up the Website for MacOS
+Local Installation: MacOS
 ============================
 
 1. Prepare Python Environment
