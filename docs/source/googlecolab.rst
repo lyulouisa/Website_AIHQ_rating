@@ -32,8 +32,7 @@ Troubleshooting
 
 2. **OpenAI usage**:
 
-   - If you switch to GPT-3.5-turbo, you must provide a valid API key.
-     Ensure you understand your OpenAI billing and data-use settings.
+   - If you switch to GPT-3.5-turbo, you must provide a valid API key by copy-pasting the key in the code.
 
 FAQ
 ---
