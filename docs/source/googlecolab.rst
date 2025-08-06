@@ -13,12 +13,14 @@ Open the Colab Notebook
 What This Notebook Does
 -----------------------
 
-- **Default model:** Fine-tuned FLAN-T5 on Hugging Face
-  (``lyulouisaa/flant5-finetuned-aihqrating``).
-- **Other vailable model:** OpenAI ``gpt-3.5-turbo`` (requires your own API key).
+- Rate your AIHQ open-ended response with one of the following two models of your choice:
+
+   - **Default model:** Fine-tuned FLAN-T5 on Hugging Face
+     (``lyulouisaa/flant5-finetuned-aihqrating``).
+   - **Other available model:** OpenAI ``gpt-3.5-turbo`` (requires your own API key).
+
 - Validates your input CSV file, rates all responses, and saves a file named
   ``processed_aihq.csv`` for download.
-
 
 Troubleshooting
 ---------------
