@@ -1,11 +1,7 @@
 Google Colab Implementation (Recommended)
 =========================================
 
-.. note::
-
-   **No local installation is required.** You will open our notebook in
-   Google Colab, upload your CSV, run the code cells, and download the processed
-   file *all in your browser*.
+Open our notebook in Google Colab, upload your CSV, run the code cells, and download the processed file with ratings all in your browser. **No local installation is required.** 
 
 Open the Colab Notebook
 -----------------------
