@@ -38,6 +38,7 @@ Contents:
    :maxdepth: 2
    :caption: Quick Links:
 
+   googlecolab
    mac
    windows
    csv_format
