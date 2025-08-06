@@ -1,4 +1,4 @@
-Set up the Website for Windows
+Local Installation: Windows
 ==============================
 
 1. Prepare Python Environment
