@@ -24,7 +24,7 @@ Users prepare a .csv file containing AIHQ text responses, select one of the two 
 
 The tool supports both:
 
-1. **Flan-T5-large:** Fine‑tuned on human‑rated AIHQ data. The model is downloaded to your computer and all scoring is done locally. No data is sent over the internet, making this option ideal when responses must remain fully secure and private.
+1. **Flan-T5-large:** Fine‑tuned on human‑rated AIHQ data.
 2. **GPT-3.5-turbo:** The base GPT‑3.5‑turbo model (OpenAI does not permit distribution of the fine‑tuned version). This approach requires your own OpenAI API key and the text of each response is sent to OpenAI’s servers for rating.
 
 .. raw:: html
