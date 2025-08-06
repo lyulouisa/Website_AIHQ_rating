@@ -10,8 +10,6 @@ Open the Colab Notebook
 
    - https://colab.research.google.com/drive/1_qV2DzpmQCrA1NnzjIsEXdkUjrZihr_n?usp=sharing
 
-2. When prompted, choose **“Open in Colab.”**
-
 What This Notebook Does
 -----------------------
 
