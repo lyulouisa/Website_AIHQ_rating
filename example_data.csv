@@ -1,0 +1,9 @@
+subid,story_num,aihq_scene,a_reason,e_reaction
+1001,1,"Someone jumps in front of you on the grocery line and says, I'm in a rush.",They didn't want to wait in line.,"There wouldn't be much I could do. I might say, 'I was next in line.  I probably would have let you go in front of me anyway because you had less items than me'."
+1002,1,"Someone jumps in front of you on the grocery line and says, I'm in a rush.","Because they were in a rush, because they didn't want to wait in line.",Say something rude.
+1003,2,"A friend of yours slips on the ice, knocking you onto the ground.",He slipped on the ice.,See if he was hurt from his fall.
+1004,2,"A friend of yours slips on the ice, knocking you onto the ground.",Slipped on the ice.,Ask them to help me up.
+1005,8,You walk past a bunch of teenagers at a mall and your hear them start to laugh.,"They thought I was cute, or they saw something on their phones. I have no idea. It probably had nothing to do with me.",Keep walking.
+1006,8,You walk past a bunch of teenagers at a mall and your hear them start to laugh.,Something I was wearing.,"Wonder why they were laughing, and then do nothing. Keep walking."
+1007,8,You walk past a bunch of teenagers at a mall and your hear them start to laugh.,Being rude.,Nothing.
+1008,8,You walk past a bunch of teenagers at a mall and your hear them start to laugh.,"It could be anything, I'm not going to assume it was about me, or it could have just been timing.  I would just keep walking.",I would just keep walking.
