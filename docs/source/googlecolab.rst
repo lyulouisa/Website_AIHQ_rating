@@ -6,7 +6,7 @@ Open our notebook in Google Colab, upload your CSV, run the code cells, and down
 Open the Colab Notebook
 -----------------------
 
-1. Click the Colab link: https://colab.research.google.com/drive/1_qV2DzpmQCrA1NnzjIsEXdkUjrZihr_n?usp=sharing
+1. Go to the Colab link: https://colab.research.google.com/drive/1_qV2DzpmQCrA1NnzjIsEXdkUjrZihr_n?usp=sharing
 
 What This Notebook Does
 -----------------------
